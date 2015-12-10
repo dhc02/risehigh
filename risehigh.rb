@@ -11,6 +11,14 @@
 # CSV file to import into the new system.
 #############
 
+#############
+# Config
+#
+# Set this to true to discard notes automatically inserted into Highrise by Mailchimp
+# Set it to false to copy all notes to CSV, including Mailchimp notes
+discard_mailchimp_notes = true
+#############
+
 require 'csv'
 require 'yaml'
 
@@ -90,7 +98,7 @@ old_contacts.each do |row|
           # If it doesn't look like a note from Mailchimp, then we add it to the
           # yaml_notes string with some light text formatting and tell the
           # console we're making progress
-          unless is_mailchimp_note
+          unless is_mailchimp_note && discard_mailchimp_notes
             yaml_notes << "Note from #{note_author} #{note_time}\r\n***\r\n#{note_body}\r\n*******************\r\n"
             puts "Adding #{item_name} to #{contact_name} (#{contact_id})"
           end #unless
