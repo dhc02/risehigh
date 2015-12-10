@@ -2,13 +2,6 @@
 
 #############
 # Author: Donnie Clapp
-#
-# A utility for taking an exported CSV file from Highrise, a directory of exported
-# .txt files from Highrise (what you get if you ask for notes and everything),
-# and adding relevant notes to the CSV.
-#
-# This is useful if you're moving from Highrise to another CRM and need one master
-# CSV file to import into the new system.
 #############
 
 #############
@@ -55,6 +48,7 @@ headers << "Notes"
 new_contacts << headers
 
 original_dir = Dir.pwd
+old_contacts_file_dir = File.dirname(old_contacts_file)
 Dir.chdir(old_contacts_yaml_dir)
 puts ""
 suspected_duplicates = 0
@@ -125,15 +119,15 @@ old_contacts.each do |row|
 end #each
 
 # write the new_contacts.csv file from the new_contacts array
-Dir.chdir(original_dir)
-CSV.open('new_contacts.csv', 'w') do |file|
+Dir.chdir(old_contacts_file_dir)
+CSV.open("new_#{old_contacts_file}", 'w') do |file|
   new_contacts.each do |row|
     file << row
   end
 end
 
 puts "\n**********"
-puts "new_contacts.csv is ready."
+puts "your new contacts CSV is ready."
 puts "**********\nNote: There are #{suspected_duplicates.to_s} suspected duplicate contacts! WTF?" if suspected_duplicates > 0
 if unmatched_contacts.length > 0
   puts "**********\nNote: There were #{unmatched_contacts.length.to_s} people who couldn't be matched to a file in the directory. Which is weird."
