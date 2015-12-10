@@ -99,7 +99,7 @@ old_contacts.each do |row|
           # yaml_notes string with some light text formatting and tell the
           # console we're making progress
           unless is_mailchimp_note && discard_mailchimp_notes
-            yaml_notes << "Note from #{note_author} #{note_time}\r\n***\r\n#{note_body}\r\n*******************\r\n"
+            yaml_notes << "Note from #{note_author} #{note_time}\r***\r#{note_body}\r*******************\r"
             puts "Adding #{item_name} to #{contact_name} (#{contact_id})"
           end #unless
         end #if
