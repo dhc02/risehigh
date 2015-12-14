@@ -41,6 +41,7 @@ yaml_dir = File.absolute_path(ARGV[1])
 yaml_file_names = Dir.entries(yaml_dir)
 # trim array items to just the full name by throwing away everything after the -
 yaml_file_names.map! { |file_name| file_name = file_name.split('-')[0] }
+yaml_file_names.map! { |file_name| file_name = file_name.split('.')[0] }
 
 # read the old contacts file and assign contents to the old_contacts array
 old_contacts = CSV.read(old_contacts_file, headers:true)
@@ -67,7 +68,6 @@ old_contacts.each do |row|
   name_matching_string = name_matching_string.gsub('/','_')
   name_matching_string = name_matching_string.gsub(':','_')
   matching_files=Dir.glob(name_matching_string + "*") # => an array
-
   suspected_duplicates = suspected_duplicates+1 if matching_files.length > 1
 
   # duplicate contacts mean we have to verify the ID in the YAML file matches the ID in the CSV row.
@@ -76,37 +76,38 @@ old_contacts.each do |row|
   # We break the for loop after we find a matching ID
   for file in matching_files
     yaml = YAML.load_file(file)
-    # puts "contact id: #{contact_id}  |  YAML ID: #{yaml[0]["ID"]}"
     if yaml[0]["ID"].to_s == contact_id
       contact_has_a_note = false
       yaml_notes = ""
+
       # We don't know how many notes there are in the YAML file, if any. So we have to
       # iterate over each top-level item in the YAML and see if it's a note
       yaml.each do |item|
         item_name = item.keys[0]
         if item_name.include?("Note")
-          contact_has_a_note = true
           note_author = item[item_name][0]["Author"]
           note_time = item[item_name][1]["Written"]
           note_body = item[item_name][3]["Body"]
-          is_mailchimp_note = note_body.include?("Has not purchased.")
+
           # we're going to (optionally) ignore Mailchimp notes about emails opened.
           # If it doesn't look like a note from Mailchimp, then we add it to the
           # yaml_notes string with some light text formatting and tell the
           # console we're making progress
+          note_for_matching = note_body.chomp.downcase
+          is_mailchimp_note = (note_for_matching.include?('campaign') && note_for_matching.include?('opened') && note_for_matching.include?('clicked') && note_for_matching.include?('purchased'))
+
           unless is_mailchimp_note && discard_mailchimp_notes
             yaml_notes << "Note from #{note_author} #{note_time}\r***\r#{note_body}\r*******************\r"
             puts "Adding #{item_name} to #{contact_name} (#{contact_id})"
+            contact_has_a_note = true
           end #unless
         end #if
       end #yaml.each
 
-      puts "No notes found for #{contact_name}." unless contact_has_a_note
-      # exit for loop and stop searching;
-      # we found a file with a matching ID and took notes from it
-      break
     end #if
   end #for
+
+  puts "No notes found for #{contact_name}." unless contact_has_a_note
 
   # this shouldn't ever happen so let's print to console if it does
   if matching_files.length == 0

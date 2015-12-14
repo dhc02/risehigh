@@ -1,0 +1,75 @@
+---
+- ID: 1236
+  Name: Seth Neilson
+  Tags:
+  - employee
+- Contact:
+  -
+    - Email_addresses
+    -
+      - seth@asdf.com
+- Note 195702344:
+  -
+    Author: Donnie C.
+  -
+    Written: "December 03, 2013 18:48"
+  -
+    About: Seth Neilson
+  -
+    Body: |-
+      Campaign <b>Pedal4Power Announcement</b> was sent to contact Dec 03, 2013 10:40 am<br>
+      Opened 4 times. Last was Dec 03, 2013 11:56 am<br>
+      Has not clicked.<br>
+      Has not purchased.<br>
+- Note 204979088:
+  -
+    Author: Donnie C.
+  -
+    Written: "January 30, 2014 22:48"
+  -
+    About: Seth Neilson
+  -
+    Body: |-
+      Campaign <b>The Mercury Messenger: January 2014</b> was sent to contact Jan 30, 2014 01:46 pm<br>
+      Opened 3 times. Last was Jan 30, 2014 02:21 pm<br>
+      Has not clicked.<br>
+      Has not purchased.<br>
+- Note 210542514:
+  -
+    Author: Donnie C.
+  -
+    Written: "February 27, 2014 20:48"
+  -
+    About: Seth Neilson
+  -
+    Body: |-
+      Campaign <b>The Mercury Messenger: February 2014</b> was sent to contact Feb 27, 2014 01:15 pm<br>
+      Opened 1 time. Last was Feb 27, 2014 01:16 pm<br>
+      Has not clicked.<br>
+      Has not purchased.<br>
+- Note 222290678:
+  -
+    Author: Donnie C.
+  -
+    Written: "April 30, 2014 18:48"
+  -
+    About: Seth Neilson
+  -
+    Body: |-
+      Campaign <b>The Mercury Messenger: April 2014</b> was sent to contact Apr 30, 2014 11:18 am<br>
+      Opened 2 times. Last was Apr 30, 2014 11:48 am<br>
+      Has not clicked.<br>
+      Has not purchased.<br>
+- Note 313021889:
+  -
+    Author: Chelsi M.
+  -
+    Written: "October 01, 2015 18:41"
+  -
+    About: Seth Neilson
+  -
+    Body: |-
+      Campaign <b>MERCURYcsc September Newsletter</b> was sent to contact Oct 01, 2015 10:45 am<br>
+      Has not opened<br>
+      Has not clicked.<br>
+      Has not purchased.<br>

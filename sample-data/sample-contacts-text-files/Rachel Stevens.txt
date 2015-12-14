@@ -1,0 +1,111 @@
+---
+- ID: 1233
+  Name: Rachel Stevens
+  Tags:
+  - test
+- Contact:
+  -
+    - Email_addresses
+    -
+      - rachel@asdf.com
+- Note 251628327:
+  -
+    Author: Foo B.
+  -
+    Written: "October 06, 2014 16:57"
+  -
+    About: Rachel Stevens
+  -
+    Body: |-
+      Your mother was a snowblower. Merry Christmas ya filthy animals.
+- Note 256419782:
+  -
+    Author: Foo B.
+  -
+    Written: "October 31, 2014 16:21"
+  -
+    About: Rachel Stevens
+  -
+    Body: |-
+      Interview notes:
+      - Loves life
+      - Quite pretty
+      - Neat
+- Note 290800784:
+  -
+    Author: Donnie C.
+  -
+    Written: "May 19, 2015 17:06"
+  -
+    About: Rachel Stevens
+  -
+    Body: |-
+      Campaign <b>The Mercury Messenger: May 2015</b> was sent to contact May 19, 2015 10:00 am<br>
+      Has not opened<br>
+      Has not clicked.<br>
+      Has not purchased.<br>
+- Note 299404530:
+  -
+    Author: Donnie C.
+  -
+    Written: "July 16, 2015 19:03"
+  -
+    About: Rachel Stevens
+  -
+    Body: |-
+      Campaign <b>Pulse Webinar - July 2015</b> was sent to contact Jul 16, 2015 12:08 pm<br>
+      Opened 2 times. Last was Jul 16, 2015 01:35 pm<br>
+      Clicked 1 time. Last was Jul 16, 2015 01:35 pm<br>
+      Has not purchased.<br>
+- Note 300434585:
+  -
+    Author: Donnie C.
+  -
+    Written: "July 23, 2015 14:35"
+  -
+    About: Rachel Stevens
+  -
+    Body: |-
+      Campaign <b>Webinar Reminder</b> was sent to contact Jul 23, 2015 07:09 am<br>
+      Opened 2 times. Last was Jul 23, 2015 09:50 am<br>
+      Clicked 1 time. Last was Jul 23, 2015 09:50 am<br>
+      Has not purchased.<br>
+- Note 304039598:
+  -
+    Author: Donnie C.
+  -
+    Written: "August 13, 2015 20:46"
+  -
+    About: Rachel Stevens
+  -
+    Body: |-
+      Campaign <b>August Newsletter</b> was sent to contact Aug 13, 2015 02:26 pm<br>
+      Opened 1 time. Last was Aug 13, 2015 02:43 pm<br>
+      Has not clicked.<br>
+      Has not purchased.<br>
+- Note 304074650:
+  -
+    Author: Donnie C.
+  -
+    Written: "August 14, 2015 00:46"
+  -
+    About: Rachel Stevens
+  -
+    Body: |-
+      Campaign <b>August Newsletter Correction</b> was sent to contact Aug 13, 2015 05:50 pm<br>
+      Has not opened<br>
+      Has not clicked.<br>
+      Has not purchased.<br>
+- Note 313024563:
+  -
+    Author: Chelsi M.
+  -
+    Written: "October 01, 2015 18:49"
+  -
+    About: Rachel Stevens
+  -
+    Body: |-
+      Campaign <b>MERCURYcsc September Newsletter</b> was sent to contact Oct 01, 2015 10:45 am<br>
+      Opened 2 times. Last was Oct 01, 2015 10:45 am<br>
+      Clicked 5 times. Last was Oct 01, 2015 10:46 am<br>
+      Has not purchased.<br>

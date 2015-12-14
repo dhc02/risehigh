@@ -1,0 +1,124 @@
+---
+- ID: 1231
+  Name: Seth Neilson
+  Tags:
+  - test
+- Contact:
+- Background: |
+
+    Smart and stuff
+- Note 132614743:
+  -
+    Author: The A.
+  -
+    Written: "November 20, 2012 18:40"
+  -
+    About: Seth Neilson
+  -
+    Body: |-
+      Seth and I talked today about the weather. He was delightful.<br>
+      So we decided to go have lunch.
+- Note 140176923:
+  -
+    Author: The A.
+  -
+    Written: "January 15, 2013 18:45"
+  -
+    About: Seth Neilson
+  -
+    Body: |-
+      Campaign <b>Introducing Mike G</b> was sent to contact Jan 15, 2013 10:45 am<br>
+      Opened 2 times. Last was Jan 15, 2013 12:04 pm<br>
+      Has not clicked.<br>
+      Has not purchased.<br>
+- Note 141679183:
+  -
+    Author: The A.
+  -
+    Written: "January 24, 2013 18:44"
+  -
+    About: Seth Neilson
+  -
+    Body: |-
+      Campaign <b>OR Panel Announcement</b> was sent to contact Jan 24, 2013 10:45 am<br>
+      Opened 1 time. Last was Jan 24, 2013 10:48 am<br>
+      Has not clicked.<br>
+      Has not purchased.<br>
+- Note 290794372:
+  -
+    Author: Donnie C.
+  -
+    Written: "May 19, 2015 16:49"
+  -
+    About: Seth Neilson
+  -
+    Body: |-
+      Campaign <b>The Mercury Messenger: May 2015</b> was sent to contact May 19, 2015 10:00 am<br>
+      Opened 1 time. Last was May 19, 2015 10:24 am<br>
+      Has not clicked.<br>
+      Has not purchased.<br>
+- Note 299400007:
+  -
+    Author: Donnie C.
+  -
+    Written: "July 16, 2015 18:48"
+  -
+    About: Seth Neilson
+  -
+    Body: |-
+      Campaign <b>Pulse Webinar - July 2015</b> was sent to contact Jul 16, 2015 12:08 pm<br>
+      Has not opened<br>
+      Has not clicked.<br>
+      Has not purchased.<br>
+- Note 299905075:
+  -
+    Author: Donnie C.
+  -
+    Written: "July 20, 2015 22:45"
+  -
+    About: Seth Neilson
+  -
+    Body: |-
+      Campaign <b>Pulse Webinar - July 2015 (resend)</b> was sent to contact Jul 20, 2015 03:46 pm<br>
+      Opened 2 times. Last was Jul 20, 2015 04:04 pm<br>
+      Has not clicked.<br>
+      Has not purchased.<br>
+- Note 304036989:
+  -
+    Author: Donnie C.
+  -
+    Written: "August 13, 2015 20:40"
+  -
+    About: Seth Neilson
+  -
+    Body: |-
+      Campaign <b>August Newsletter</b> was sent to contact Aug 13, 2015 02:26 pm<br>
+      Has not opened<br>
+      Has not clicked.<br>
+      Has not purchased.<br>
+- Note 304073621:
+  -
+    Author: Donnie C.
+  -
+    Written: "August 14, 2015 00:40"
+  -
+    About: Seth Neilson
+  -
+    Body: |-
+      Campaign <b>August Newsletter Correction</b> was sent to contact Aug 13, 2015 05:50 pm<br>
+      Has not opened<br>
+      Has not clicked.<br>
+      Has not purchased.<br>
+- Note 313022175:
+  -
+    Author: Chelsi M.
+  -
+    Written: "October 01, 2015 18:42"
+  -
+    About: Seth Neilson
+  -
+    Body: |-
+      Campaign <b>MERCURYcsc September Newsletter</b> was sent to contact Oct 01, 2015 10:45 am<br>
+      Opened 9 times. Last was Oct 01, 2015 10:48 am<br>
+      Has not clicked.<br>
+      Has not purchased.<br>

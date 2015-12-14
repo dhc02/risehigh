@@ -1,0 +1,190 @@
+---
+- ID: 1232
+  Name: Donnie Clapp
+  Tags:
+  - employee
+- Company:
+  ID: 50287735
+  Name: MERCURYcsc
+- Contact:
+  -
+    - Addresses
+    -
+      - ", ,  Montana, , "
+  -
+    - Phone_numbers
+    -
+      - 406-686-6162
+  -
+    - Email_addresses
+    -
+      - dhclapp@gmail.com
+- Note 188658988:
+  -
+    Author: Donnie C.
+  -
+    Written: "October 24, 2013 20:48"
+  -
+    About: Donnie Clapp
+  -
+    Body: |-
+      Campaign <b>The Mercury Messenger: October 2013</b> was sent to contact Oct 24, 2013 02:15 pm<br>
+      Opened 2 times. Last was Oct 24, 2013 02:18 pm<br>
+      Has not clicked.<br>
+      Has not purchased.<br>
+- Note 194851467:
+  -
+    Author: Donnie C.
+  -
+    Written: "November 27, 2013 18:48"
+  -
+    About: Donnie Clapp
+  -
+    Body: |-
+      Campaign <b>The Mercury Messenger: November 2013</b> was sent to contact Nov 27, 2013 10:13 am<br>
+      Has not opened<br>
+      Has not clicked.<br>
+      Has not purchased.<br>
+- Note 195702355:
+  -
+    Author: Donnie C.
+  -
+    Written: "December 03, 2013 18:48"
+  -
+    About: Donnie Clapp
+  -
+    Body: |-
+      Campaign <b>Pedal4Power Announcement</b> was sent to contact Dec 03, 2013 10:40 am<br>
+      Has not opened<br>
+      Has not clicked.<br>
+      Has not purchased.<br>
+- Note 196264079:
+  -
+    Author: Donnie C.
+  -
+    Written: "December 05, 2013 18:45"
+  -
+    About: Donnie Clapp
+  -
+    Body: |-
+      Campaign <b>Pedal4Power Announcement resend to non-openers</b> was sent to contact Dec 05, 2013 10:07 am<br>
+      Opened 1 time. Last was Dec 05, 2013 10:26 am<br>
+      Has not clicked.<br>
+      Has not purchased.<br>
+- Note 204979100:
+  -
+    Author: Donnie C.
+  -
+    Written: "January 30, 2014 22:48"
+  -
+    About: Donnie Clapp
+  -
+    Body: |-
+      Campaign <b>The Mercury Messenger: January 2014</b> was sent to contact Jan 30, 2014 01:46 pm<br>
+      Opened 1 time. Last was Jan 30, 2014 02:05 pm<br>
+      Has not clicked.<br>
+      Has not purchased.<br>
+- Note 210542528:
+  -
+    Author: Donnie C.
+  -
+    Written: "February 27, 2014 20:48"
+  -
+    About: Donnie Clapp
+  -
+    Body: |-
+      Campaign <b>The Mercury Messenger: February 2014</b> was sent to contact Feb 27, 2014 01:15 pm<br>
+      Opened 1 time. Last was Feb 27, 2014 02:39 pm<br>
+      Has not clicked.<br>
+      Has not purchased.<br>
+- Note 222290695:
+  -
+    Author: Donnie C.
+  -
+    Written: "April 30, 2014 18:48"
+  -
+    About: Donnie Clapp
+  -
+    Body: |-
+      Campaign <b>The Mercury Messenger: April 2014</b> was sent to contact Apr 30, 2014 11:18 am<br>
+      Opened 1 time. Last was Apr 30, 2014 11:22 am<br>
+      Has not clicked.<br>
+      Has not purchased.<br>
+- Note 290793697:
+  -
+    Author: Donnie C.
+  -
+    Written: "May 19, 2015 16:47"
+  -
+    About: Donnie Clapp
+  -
+    Body: |-
+      Campaign <b>The Mercury Messenger: May 2015</b> was sent to contact May 19, 2015 10:00 am<br>
+      Opened 2 times. Last was May 19, 2015 10:06 am<br>
+      Clicked 1 time. Last was May 19, 2015 10:06 am<br>
+      Has not purchased.<br>
+- Note 295250668:
+  -
+    Author: Donnie C.
+  -
+    Written: "June 18, 2015 20:44"
+  -
+    About: Donnie Clapp
+  -
+    Body: |-
+      Campaign <b>The Pulse - June 2015</b> was sent to contact Jun 18, 2015 02:00 pm<br>
+      Opened 2 times. Last was Jun 18, 2015 02:04 pm<br>
+      Clicked 1 time. Last was Jun 18, 2015 02:04 pm<br>
+      Has not purchased.<br>
+- Note 299399467:
+  -
+    Author: Donnie C.
+  -
+    Written: "July 16, 2015 18:46"
+  -
+    About: Donnie Clapp
+  -
+    Body: |-
+      Campaign <b>Pulse Webinar - July 2015</b> was sent to contact Jul 16, 2015 12:08 pm<br>
+      Opened 2 times. Last was Jul 17, 2015 03:44 pm<br>
+      Has not clicked.<br>
+      Has not purchased.<br>
+- Note 304036709:
+  -
+    Author: Donnie C.
+  -
+    Written: "August 13, 2015 20:39"
+  -
+    About: Donnie Clapp
+  -
+    Body: |-
+      Campaign <b>August Newsletter</b> was sent to contact Aug 13, 2015 02:26 pm<br>
+      Opened 1 time. Last was Aug 13, 2015 02:29 pm<br>
+      Has not clicked.<br>
+      Has not purchased.<br>
+- Note 304073492:
+  -
+    Author: Donnie C.
+  -
+    Written: "August 14, 2015 00:39"
+  -
+    About: Donnie Clapp
+  -
+    Body: |-
+      Campaign <b>August Newsletter Correction</b> was sent to contact Aug 13, 2015 05:50 pm<br>
+      Opened 1 time. Last was Aug 13, 2015 06:05 pm<br>
+      Has not clicked.<br>
+      Has not purchased.<br>
+- Note 313021899:
+  -
+    Author: Chelsi M.
+  -
+    Written: "October 01, 2015 18:41"
+  -
+    About: Donnie Clapp
+  -
+    Body: |-
+      Campaign <b>MERCURYcsc September Newsletter</b> was sent to contact Oct 01, 2015 10:45 am<br>
+      Opened 1 time. Last was Oct 01, 2015 10:46 am<br>
+      Has not clicked.<br>
+      Has not purchased.<br>
