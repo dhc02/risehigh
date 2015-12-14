@@ -20,18 +20,22 @@ def print_instructions
   puts "** Well, that didn't work."
   puts "**"
   puts "** Use it like this:"
-  puts "** ./risehigh.rb /path/to/old_contacts_file /path/to/old_contacts_YAML_files_directory"
+  puts "** ./risehigh.rb /path/to/old_contacts_CSV /path/to/old_contacts_YAML_files_directory"
   puts "*****\n\n"
 end
 
-# show help if there aren't two arguments given
-if ARGV.length != 2
+# show help if the arguments don't seem right
+if ARGV.length != 2 || !File.directory?(ARGV[1])
   print_instructions
   exit
 end
 
-old_contacts_file = ARGV[0]
-old_contacts_yaml_dir = ARGV[1]
+old_contacts_file = File.absolute_path(ARGV[0])
+old_contacts_file_dirname = File.absolute_path(File.dirname(old_contacts_file))
+old_contacts_file_basename = File.basename(old_contacts_file)
+export_path = File.absolute_path(old_contacts_file_dirname)
+
+old_contacts_yaml_dir = File.absolute_path(ARGV[1])
 
 # create array of file names, which are full names plus some other stuff
 old_contacts_yaml_file_names = Dir.entries(old_contacts_yaml_dir)
@@ -47,8 +51,6 @@ headers = old_contacts.headers
 headers << "Notes"
 new_contacts << headers
 
-original_dir = Dir.pwd
-old_contacts_file_dir = File.dirname(old_contacts_file)
 Dir.chdir(old_contacts_yaml_dir)
 puts ""
 suspected_duplicates = 0
@@ -119,15 +121,15 @@ old_contacts.each do |row|
 end #each
 
 # write the new_contacts.csv file from the new_contacts array
-Dir.chdir(old_contacts_file_dir)
-CSV.open("new_#{old_contacts_file}", 'w') do |file|
+Dir.chdir(export_path)
+CSV.open("new_#{old_contacts_file_basename}", 'w') do |file|
   new_contacts.each do |row|
     file << row
   end
 end
 
 puts "\n**********"
-puts "your new contacts CSV is ready."
+puts "Your new contacts CSV has been placed at #{export_path}/new_#{old_contacts_file_basename}."
 puts "**********\nNote: There are #{suspected_duplicates.to_s} suspected duplicate contacts! WTF?" if suspected_duplicates > 0
 if unmatched_contacts.length > 0
   puts "**********\nNote: There were #{unmatched_contacts.length.to_s} people who couldn't be matched to a file in the directory. Which is weird."
