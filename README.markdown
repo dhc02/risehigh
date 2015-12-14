@@ -4,7 +4,7 @@ A small utility that helps when you're moving from [Highrise](https://highrisehq
 ## Usage
 `./risehigh.rb /path/to/contacts_csv_file /path/to/directory_of_contacts_text_files`
 
-`# creates new_contacts_csv_file in same directory as original contacts_csv_file`
+This creates `new_contacts_csv_file` in the same directory as original `contacts_csv_file`. Feel free to use the sample data in /sample-data to test and play with things.
 
 ## Use Cases
 Highrise provides [several export options](http://i.imgur.com/XmImj67.png). If you're moving to an entirely new system and you've ever added notes to anyone in Highrise, none of these is very helpful. CSV is the obvious choice for re-importing (and you can download a separate CSV for every tag you might care about), but it doesn't include Highrise "notes".
@@ -35,6 +35,6 @@ I've tested it with a ~5,000 record CSV and it takes about 10 seconds to run. It
 By default, it skips notes automatically inserted by Mailchimp. You can change this by setting `discard_mailchimp_notes = false` at the top of `risehigh.rb`. If your database doesn't have any Mailchimp notes, this setting won't do anything.
 
 ## Contributing
-Pull requests are welcome. 
+Pull requests are welcome.
 
 It's GPLv2, so please push improvements back upstream.
