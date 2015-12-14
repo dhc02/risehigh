@@ -1,3 +1,9 @@
+/sample-data/new_*
+
+##########
+## Below here is ruby boilerplate .gitignore for ruby projects
+##########
+
 *.gem
 *.rbc
 /.config
