@@ -20,7 +20,7 @@ def print_instructions
   puts "** Well, that didn't work."
   puts "**"
   puts "** Use it like this:"
-  puts "** ./risehigh.rb /path/to/old_contacts_CSV /path/to/old_contacts_YAML_files_directory"
+  puts "** ./risehigh.rb /path/to/contacts_csv_file /path/to/directory_of_contacts_text_files"
   puts "*****\n\n"
 end
 
@@ -35,12 +35,12 @@ old_contacts_file = File.absolute_path(ARGV[0])
 old_contacts_file_basename = File.basename(old_contacts_file)
 export_path = File.absolute_path(File.dirname(old_contacts_file))
 
-old_contacts_yaml_dir = File.absolute_path(ARGV[1])
+yaml_dir = File.absolute_path(ARGV[1])
 
 # create array of file names, which are full names plus some other stuff
-old_contacts_yaml_file_names = Dir.entries(old_contacts_yaml_dir)
+yaml_file_names = Dir.entries(yaml_dir)
 # trim array items to just the full name by throwing away everything after the -
-old_contacts_yaml_file_names.map! { |file_name| file_name = file_name.split('-')[0] }
+yaml_file_names.map! { |file_name| file_name = file_name.split('-')[0] }
 
 # read the old contacts file and assign contents to the old_contacts array
 old_contacts = CSV.read(old_contacts_file, headers:true)
@@ -51,7 +51,7 @@ headers = old_contacts.headers
 headers << "Notes"
 new_contacts << headers
 
-Dir.chdir(old_contacts_yaml_dir)
+Dir.chdir(yaml_dir)
 puts ""
 suspected_duplicates = 0
 unmatched_contacts = []
