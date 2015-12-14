@@ -25,15 +25,15 @@ def print_instructions
 end
 
 # show help if the arguments don't seem right
+# i.e., if there aren't two args or the second one isn't a directory
 if ARGV.length != 2 || !File.directory?(ARGV[1])
   print_instructions
   exit
 end
 
 old_contacts_file = File.absolute_path(ARGV[0])
-old_contacts_file_dirname = File.absolute_path(File.dirname(old_contacts_file))
 old_contacts_file_basename = File.basename(old_contacts_file)
-export_path = File.absolute_path(old_contacts_file_dirname)
+export_path = File.absolute_path(File.dirname(old_contacts_file))
 
 old_contacts_yaml_dir = File.absolute_path(ARGV[1])
 
